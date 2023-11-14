@@ -1,7 +1,8 @@
 <div class="background-box">
 
     <p class="title">Ready to Get Started?</p>
-    <p class="secondery-title">Let us know how to get in touch with you.
+    <p class="secondery-title">
+    Let us know how to get in touch with you.
     We will contact you within 24 hrs.</p>
 
     <form class="form" [formGroup]="userData">
@@ -31,5 +32,4 @@
     </form>
     <app-button class="btn" [context]="'Lets Tallk'" (click)="sendData(userData.controls['email'].errors)" ></app-button>
 
- 
 </div>
